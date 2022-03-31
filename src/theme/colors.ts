@@ -2,7 +2,7 @@ export const white = '#FFF';
 export const black = '#000';
 
 export const green = {
-  500: '#00D110',
+  500: '#00D110#F',
 };
 
 export const purple = {

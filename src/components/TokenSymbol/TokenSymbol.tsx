@@ -1,8 +1,9 @@
 import React from 'react';
 
 //Graveyard ecosystem logos
-import tombLogo from '../../assets/img/3OMB.svg';
-import tShareLogo from '../../assets/img/3SHARES.svg';
+
+import tombLogo from '../../assets/img/3OMB.png';
+import tShareLogo from '../../assets/img/3SHARES.png';
 import tombLogoPNG from '../../assets/img/3OMB.png';
 import tShareLogoPNG from '../../assets/img/3SHARES.png';
 import tBondLogo from '../../assets/img/3BOND-01.png';
@@ -32,6 +33,7 @@ import ThreesharesLPLogo from '../../assets/img/3SHARES-WFTM.png';
 const logosBySymbol: { [title: string]: string } = {
   //Real tokens
   //=====================
+  
   TOMB: tombLogo,
   TOMBPNG: tombLogoPNG,
   TSHAREPNG: tShareLogoPNG,
@@ -66,7 +68,7 @@ type LogoProps = {
   size?: number;
 };
 
-const TokenSymbol: React.FC<LogoProps> = ({ symbol, size = 64 }) => {
+const TokenSymbol: React.FC<LogoProps> = ({ symbol, size = 150 }) => {
   if (!logosBySymbol[symbol]) {
     return <img src={logosBySymbol['TOMB']} alt={`${symbol} Logo`} width={size} height={size} />
     // throw new Error(`Invalid Token Logo symbol: ${symbol}`);

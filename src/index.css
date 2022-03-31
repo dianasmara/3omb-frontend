@@ -4,10 +4,16 @@
 
 :root {
     --black: #16191E;
-    --white: #E6E9EE;
-    --accent: #FF4949;
-    --accent-light: #ff6464;
-}
+    --white: #FFFF;
+    --accent: #FF0000;
+    --accent-light: #141313;
+    --green: rgb(0, 250, 62);
+    --pink: #F10086;
+    --purple: #E900FF;
+}  
+
+    
+
 
 body,
 html,
@@ -16,7 +22,7 @@ h2,
 h3,
 h4 {
   margin: 0;
-  font-family: 'Gilroy', sans-serif !important;
+  font-family: 'Inspiration', cursive !important;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
@@ -39,14 +45,14 @@ body {
 }
 .MuiPaper-elevation1 {
   box-shadow: none !important;
-  background-color: #ffffff22 !important;
+  background-color: rgbargba(250, 236, 243, 0.1) !important;
   backdrop-filter: blur(5px);
   border-radius: 10px !important;
-  border: 1px solid var(--white);
+  border: 1px solid var(--red);
 }
 
 .MuiCard-root {
-  background-color: #ffffff22 !important;
+  background-color: rgba(250, 236, 243, 0.1) !important;
   backdrop-filter: blur(5px);
   border-radius: 10px !important;
 }
@@ -71,11 +77,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Gilroy' !important;
+  font-family: 'Inspiration' !important;
 }
 
 footer .a:hover {
-  fill: '#DA4567';
+  fill: '#3F3351';
 }
 
 .MuiToolbar-regular {

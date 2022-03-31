@@ -2,10 +2,10 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Grid, Typography, Link } from '@material-ui/core';
 import TwitterImage from '../../assets/img/twitter.svg';
-import GithubImage from '../../assets/img/github.svg';
+// import GithubImage from '../../assets/img/github.svg';
 import TelegramImage from '../../assets/img/telegram.svg';
 import DiscordImage from '../../assets/img/discord.svg';
-import YoutubeImage from '../../assets/img/youtube.svg';
+// import YoutubeImage from '../../assets/img/youtube.svg';
 
 const useStyles = makeStyles((theme) => ({
   footer: {
@@ -44,7 +44,7 @@ const Footer = () => {
         <Grid container>
           <Grid item xs={6}>
             <Typography variant="body2" color="textPrimary" align="left">
-              {'Copyright © 3omb Finance '}
+              {'copyright BOO FINANCE '}
               {new Date().getFullYear()}
             </Typography>
           </Grid>
@@ -57,25 +57,25 @@ const Footer = () => {
             >
               <img alt="twitter" src={TwitterImage} className={classes.img} />
             </a>
-            <a
+             {/* <a
               href="https://github.com/2omb"
               rel="noopener noreferrer"
               target="_blank"
               className={classes.link}
             >
               <img alt="github" src={GithubImage} className={classes.img} />
-            </a>
+            </a>  */}
             <a href="https://bit.ly/3AUcaBI" rel="noopener noreferrer" target="_blank" className={classes.link}>
               <img alt="telegram" src={TelegramImage} className={classes.img} />
             </a>
-            <a
+            {/* <a
               href="https://www.youtube.com/results?search_query=2omb+finance"
               rel="noopener noreferrer"
               target="_blank"
               className={classes.link}
             >
               <img alt="youtube" src={YoutubeImage} className={classes.img} />
-            </a>
+            </a> */}
             <a href="https://discord.gg/2omb" rel="noopener noreferrer" target="_blank" className={classes.link}>
               <img alt="discord" src={DiscordImage} className={classes.img} />
             </a>
