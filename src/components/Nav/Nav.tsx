@@ -99,10 +99,10 @@ const Nav = () => {
       <Toolbar className={classes.toolbar}>
         {matches ? (
           <>
-            <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
+            <Typography variant="h2" color="inherit" noWrap className={classes.toolbarTitle}>
               {/* <a className={ classes.brandLink } href="/">2omb Finance</a> */}
               <Link to="/" color="inherit" className={classes.brandLink}>
-                BOO
+                BOO FINANCE
               </Link>
             </Typography>
             <Box mr={5}>
@@ -191,19 +191,19 @@ const Nav = () => {
                 <ListItemLink primary="3Farms" to="/farms" />
                 <ListItemLink primary="3Room" to="/boardroom" />
                 <ListItemLink primary="3Bonds" to="/bonds" />
-                <ListItemLink primary="3DAO" to="/rebates" />
-                <ListItemLink primary="Treasury" to="/treasury" />
+                {/* <ListItemLink primary="3DAO" to="/rebates" />
+                <ListItemLink primary="Treasury" to="/treasury" /> */}
                 {/* <ListItemLink primary="Masonry" to="/masonry" />
                 <ListItemLink primary="Pit" to="/pit" />
                 <ListItemLink primary="SBS" to="/sbs" />
                 <ListItemLink primary="Liquidity" to="/liquidity" />
                 <ListItemLink primary="Regulations" to="/regulations" /> */}
-                <ListItem button component="a" href="https://www.devilfinance.io/i">
+                {/* <ListItem button component="a" href="https://www.devilfinance.io/i">
                   <ListItemText>Vaults</ListItemText>
                 </ListItem>
                 <ListItem button component="a" href="https://snapshot.org/">
                   <ListItemText>Governance</ListItemText>
-                </ListItem>
+                </ListItem> */}
                 <ListItem button component="a" href="https://gedeon-crypto.gitbook.io/3omb.finance/">
                   <ListItemText>Docs</ListItemText>
                 </ListItem>

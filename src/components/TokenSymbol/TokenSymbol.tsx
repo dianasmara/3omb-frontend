@@ -21,7 +21,7 @@ import shibaLogo from '../../assets/img/shiba_logo.svg';
 import bifiLogo from '../../assets/img/COW.svg';
 import mimLogo from '../../assets/img/mimlogopng.png';
 import bloomLogo from '../../assets/img/BLOOM.jpg';
-import TwoombLPLogo from '../../assets/img/2OMB-WFTM.png';
+import TwoombLPLogo from '../../assets/img/3OMB-WFTM.png';
 import TwosharesLPLogo from '../../assets/img/2SHARES-WFTM.png';
 import TwoombTwosharesLPLogo from '../../assets/img/2OMB-2SHARES.png';
 
