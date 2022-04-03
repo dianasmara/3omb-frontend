@@ -2,11 +2,11 @@ import React from 'react';
 
 //Graveyard ecosystem logos
 
-import tombLogo from '../../assets/img/3OMB.png';
-import tShareLogo from '../../assets/img/3SHARES.png';
-import tombLogoPNG from '../../assets/img/3OMB.png';
-import tShareLogoPNG from '../../assets/img/3SHARES.png';
-import tBondLogo from '../../assets/img/3BOND-01.png';
+import tombLogo from '../../assets/img/BOO.png';
+import tShareLogo from '../../assets/img/BSHARES.png';
+import tombLogoPNG from '../../assets/img/BOO.png';
+import tShareLogoPNG from '../../assets/img/BSHARES.png';
+import tBondLogo from '../../assets/img/bBOND.png';
 
 import tombFtmLpLogo from '../../assets/img/tomb_ftm_lp.png';
 import tshareFtmLpLogo from '../../assets/img/tshare_ftm_lp.png';
@@ -21,14 +21,14 @@ import shibaLogo from '../../assets/img/shiba_logo.svg';
 import bifiLogo from '../../assets/img/COW.svg';
 import mimLogo from '../../assets/img/mimlogopng.png';
 import bloomLogo from '../../assets/img/BLOOM.jpg';
-import TwoombLPLogo from '../../assets/img/3OMB-WFTM.png';
+import TwoombLPLogo from '../../assets/img/2OMB-WFTM.png';
 import TwosharesLPLogo from '../../assets/img/2SHARES-WFTM.png';
 import TwoombTwosharesLPLogo from '../../assets/img/2OMB-2SHARES.png';
 
 import UsdcLogo from '../../assets/img/USDC.png';
 
-import ThreeombLPLogo from '../../assets/img/3OMB-WFTM.png';
-import ThreesharesLPLogo from '../../assets/img/3SHARES-WFTM.png';
+import ThreeombLPLogo from '../../assets/img/BOO-WFTM.png';
+import ThreesharesLPLogo from '../../assets/img/BSHARES-WFTM.png';
 
 const logosBySymbol: { [title: string]: string } = {
   //Real tokens
@@ -52,8 +52,8 @@ const logosBySymbol: { [title: string]: string } = {
   '2SHARES-WFTM LP': TwosharesLPLogo,
   '2OMB-2SHARES LP': TwoombTwosharesLPLogo,
 
-  '3OMB-WFTM LP': ThreeombLPLogo,
-  '3SHARES-WFTM LP': ThreesharesLPLogo,
+  'BOO-WFTM LP': ThreeombLPLogo,
+  'BSHARES-WFTM LP': ThreesharesLPLogo,
 
 
   'wFTM': wftmLogo,
