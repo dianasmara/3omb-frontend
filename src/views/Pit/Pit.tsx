@@ -84,7 +84,7 @@ const Pit: React.FC = () => {
                   fromToken={tombFinance.TOMB}
                   fromTokenName="3OMB"
                   toToken={tombFinance.TBOND}
-                  toTokenName="BBOND"
+                  toTokenName="bBOND"
                   priceDesc={
                     !isBondPurchasable
                       ? '3OMB is over peg'
