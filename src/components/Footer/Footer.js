@@ -65,7 +65,7 @@ const Footer = () => {
             >
               <img alt="github" src={GithubImage} className={classes.img} />
             </a>  */}
-            <a href="https://bit.ly/3AUcaBI" rel="noopener noreferrer" target="_blank" className={classes.link}>
+            <a href="https://web.telegram.org/k/" rel="noopener noreferrer" target="_blank" className={classes.link}>
               <img alt="telegram" src={TelegramImage} className={classes.img} />
             </a>
             {/* <a
