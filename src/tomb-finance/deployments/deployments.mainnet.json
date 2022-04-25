@@ -862,7 +862,7 @@
     ]
   },
   "tomb": {
-    "address": "0x14DEf7584A6c52f470Ca4F4b9671056b22f4FfDE",
+    "address": "0x2D4af2920b541b39e19B3c443c674A23eFc2786F",
     "abi": [
       {
         "inputs": [
@@ -1754,7 +1754,7 @@
     ]
   },
   "tShare": {
-    "address": "0x6437adac543583c4b31bf0323a0870430f5cc2e7",
+    "address": "0x55A8424c7a2b139F4017E7Eb90749266BA4b7B5c",
     "abi": [
       {
         "inputs": [

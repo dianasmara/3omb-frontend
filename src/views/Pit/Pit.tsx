@@ -82,13 +82,13 @@ const Pit: React.FC = () => {
                 <ExchangeCard
                   action="Purchase"
                   fromToken={tombFinance.TOMB}
-                  fromTokenName="3OMB"
+                  fromTokenName="DICE"
                   toToken={tombFinance.TBOND}
-                  toTokenName="bBOND"
+                  toTokenName="DBOND"
                   priceDesc={
                     !isBondPurchasable
                       ? '3OMB is over peg'
-                      : getDisplayBalance(bondsPurchasable, 18, 4) + ' 3BOND available for purchase'
+                      : getDisplayBalance(bondsPurchasable, 18, 4) + ' DBOND available for purchase'
                   }
                   onExchange={handleBuyBonds}
                   disabled={!bondStat || isBondRedeemable}
@@ -96,14 +96,14 @@ const Pit: React.FC = () => {
               </StyledCardWrapper>
               <StyledStatsWrapper>
                 <ExchangeStat
-                  tokenName="3OMB"
+                  tokenName="DICE"
                   description="Last-Hour TWAP Price"
                   price={getDisplayBalance(cashPrice, 18, 4)}
                 />
                 <Spacer size="md" />
                 <ExchangeStat
-                  tokenName="3BOND"
-                  description="Current Price: (3OMB)^2"
+                  tokenName="DBOND"
+                  description="Current Price: (DICE)^2"
                   price={Number(bondStat?.tokenInFtm).toFixed(2) || '-'}
                 />
               </StyledStatsWrapper>
@@ -111,13 +111,13 @@ const Pit: React.FC = () => {
                 <ExchangeCard
                   action="Redeem"
                   fromToken={tombFinance.TBOND}
-                  fromTokenName="3BOND"
+                  fromTokenName="DBOND"
                   toToken={tombFinance.TOMB}
-                  toTokenName="3OMB"
-                  priceDesc={`${getDisplayBalance(bondBalance)} 3BOND Available in wallet`}
+                  toTokenName="DICE"
+                  priceDesc={`${getDisplayBalance(bondBalance)} DBOND Available in wallet`}
                   onExchange={handleRedeemBonds}
                   disabled={!bondStat || bondBalance.eq(0) || !isBondRedeemable}
-                  disabledDescription={!isBondRedeemable ? `Enabled when 3OMB > ${BOND_REDEEM_PRICE}FTM` : null}
+                  disabledDescription={!isBondRedeemable ? `Enabled when DICE > ${BOND_REDEEM_PRICE}FTM` : null}
                 />
               </StyledCardWrapper>
             </StyledBond>

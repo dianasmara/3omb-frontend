@@ -48,7 +48,7 @@ export class TombFinance {
     }
     this.TOMB = new ERC20(deployments.tomb.address, provider, '3OMB');
     this.TSHARE = new ERC20(deployments.tShare.address, provider, '3SHARE');
-    this.TBOND = new ERC20(deployments.tBond.address, provider, '3BOND');
+    this.TBOND = new ERC20(deployments.tBond.address, provider, 'TBOND');
     this.FTM = this.externalTokens['WFTM'];
 
     // Uniswap V2 Pair

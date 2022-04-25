@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
   },
   appBar: {
     color: 'var(--white)',
-    'background-color': '#F10086',
+    'background-color': '#180A0A',
     'backdrop-filter': "blur(2px)",
     // borderBottom: `1px solid ${theme.palette.divider}`,
     padding: '0 10px',
@@ -102,7 +102,7 @@ const Nav = () => {
             <Typography variant="h2" color="inherit" noWrap className={classes.toolbarTitle}>
               {/* <a className={ classes.brandLink } href="/">2omb Finance</a> */}
               <Link to="/" color="inherit" className={classes.brandLink}>
-                BOO Finance
+                DICE Finance
               </Link>
             </Typography>
             <Box mr={5}>
@@ -145,7 +145,7 @@ const Nav = () => {
               <a href="https://snapshot.org/" target="_blank" className={classes.link}>
                 Governance
               </a> */}
-              <a href="https://gedeon-crypto.gitbook.io/3omb.finance/" target="_blank" className={classes.link}>
+              <a href="https://app.gitbook.com/s/dahiNHduTtTfIKbQJ3lg/" target="_blank" className={classes.link}>
                 Docs
               </a>
               {/* <a href="https://2omb.finance" target="_blank" className={classes.link}>
@@ -166,7 +166,7 @@ const Nav = () => {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" noWrap>
-              BOO Finance
+              DICE Finance
             </Typography>
 
             <Drawer

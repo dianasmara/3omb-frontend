@@ -154,14 +154,14 @@ const Home = () => {
         <Grid item xs={12} sm={8}>
           <Paper style={{ backgroundColor: "transparent", boxShadow: "none", border: "2px solid var(--pink)" }}>
             <Box p={7}  >
-                <h2>Welcome to BOO Finance!</h2>
+                <h2>Welcome to DICE Finance!</h2>
                 {/* <img src= "../assets/img/3OMB.svg"/> */}
               <p>An algorithmic stablecoin on the Fantom Opera blockchain, pegged to the price of 1 FTM</p>
               {/* <p>BOO utilizes multiple bonding mechanisms at the <StyledLink href="/">3DAO</StyledLink> as well as seigniorage.</p>
               <p>Built on top of <StyledLink target="_blank" href="https://2omb.finance">BOO.finance</StyledLink>.</p> */}
               <p>
-                Stake your BOO-WFTM LP in the <StyledLink href="/farms">Farms</StyledLink> to earn BSHARES rewards.
-                Then stake your earned BSHARES in the <StyledLink href="/">BoardRoom</StyledLink> to maximize profits!
+                Stake your DICE-WFTM LP in the <StyledLink href="/farms">Farms</StyledLink> to earn DSHARES rewards.
+                Then stake your earned DSHARES in the <StyledLink href="/">BoardRoom</StyledLink> to maximize profits!
               </p>  
             </Box> 
           </Paper>
@@ -229,16 +229,16 @@ const Home = () => {
                 style={{ marginRight: '10px' }}
                 className={classes.button}
               >
-                Buy BOO
+                Buy DICE
               </Button>
               <Button variant="contained" target="_blank" href="https://spookyswap.finance/swap?outputCurrency=0x6437adac543583c4b31bf0323a0870430f5cc2e7" style={{ marginRight: '10px' }} className={classes.button}>
-                Buy BSHARES
+                Buy DSHARES
               </Button>
               <Button variant="contained" target="_blank" href="https://dexscreener.com/fantom/0x83a52eff2e9d112e9b022399a9fd22a9db7d33ae" style={{ marginRight: '10px' }} className={classes.button}>
-                BOO Chart
+                DICE Chart
               </Button>
               <Button variant="contained" target="_blank" href="https://dexscreener.com/fantom/0xd352dac95a91afefb112dbbb3463ccfa5ec15b65" className={classes.button}>
-                BSHARES Chart
+                DSHARES Chart
               </Button>
             </CardContent>
           </Card>
@@ -249,23 +249,21 @@ const Home = () => {
           <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "2px solid var(--purple)" }}>
             <CardContent align="center" style={{ position: 'relative' }}>
               <h2>FTM</h2>
-              <br></br>
               <Box mt={2} style={{ backgroundColor: "transparent !important" }}>
                 <CardIcon style={{ backgroundColor: "transparent !important" }}>
                   <TokenSymbol symbol="wFTM" style={{ backgroundColor: "transparent !important" }} />
                 </CardIcon>
               </Box>
-              <br></br>
               Current Price
               <Box>
                 <span style={{ fontSize: '30px' }}>${ftmPrice ? ftmPrice : '-.----'} USD</span>
               </Box>
+              
               <span style={{ fontSize: '12px' }}>
                 Market Cap: ${ftmMarketCap} <br />
-                Price Change 24h: {ftmPriceChange.toFixed(2)}% <br />
-                <br />
-                <br />
+                Price Change 24h: {ftmPriceChange.toFixed(2)}% 
               </span>
+              
             </CardContent>
           </Card>
         </Grid> 
@@ -274,8 +272,8 @@ const Home = () => {
         <Grid item xs={12} sm={3}>
           <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "2px solid var(--purple)" }}>
             <CardContent align="center" style={{ position: 'relative' }}>
-              <h2>BOO</h2>
-              <br></br>
+              <h2>DICE</h2>
+              
               {/* <Button
                 onClick={() => {
                   tombFinance.watchAssetInMetamask('TOMB');
@@ -292,7 +290,7 @@ const Home = () => {
                   <TokenSymbol symbol="TOMB" style={{ backgroundColor: "transparent !important" }} />
                 </CardIcon>
               </Box>
-              <br></br>
+              
               Current Price
               <Box>
                 <span style={{ fontSize: '30px' }}>{tombPriceInFTM ? tombPriceInFTM : '-.----'} FTM</span>
@@ -315,8 +313,8 @@ const Home = () => {
         <Grid item xs={12} sm={3}>
           <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "2px solid var(--purple)" }}>
             <CardContent align="center" style={{ position: 'relative' }}>
-              <h2>BSHARES</h2>
-              <br></br>
+              <h2>DSHARES</h2>
+              
               {/* <Button
                 onClick={() => {
                   tombFinance.watchAssetInMetamask('TSHARE');
@@ -333,7 +331,7 @@ const Home = () => {
                   <TokenSymbol symbol="TSHARE" />
                 </CardIcon>
               </Box>
-              <br></br>
+              
               Current Price
               <Box>
                 <span style={{ fontSize: '30px' }}>{tSharePriceInFTM ? tSharePriceInFTM : '-.----'} FTM</span>
@@ -354,8 +352,8 @@ const Home = () => {
         <Grid item xs={12} sm={3}>
           <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "2px solid var(--purple)" }}>
             <CardContent align="center" style={{ position: 'relative'}}>
-              <h2>bBOND</h2>
-              <br></br>
+              <h2>DBOND</h2>
+              
               {/* <Button
                 onClick={() => {
                   tombFinance.watchAssetInMetamask('TBOND');
@@ -372,7 +370,7 @@ const Home = () => {
                   <TokenSymbol symbol="TBOND" />
                 </CardIcon>
               </Box>
-              <br></br>
+              
               Current Price
               <Box>
                 <span style={{ fontSize: '30px' }}>{tBondPriceInFTM ? tBondPriceInFTM : '-.----'} FTM</span>
@@ -391,8 +389,8 @@ const Home = () => {
         <Grid item xs={12} sm={6}>
           <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "2px solid var(--purple)" }}>
             <CardContent align="center">
-              <h2>BOO-WFTM Spooky LP</h2>
-              <br></br>
+              <h2>DICE-WFTM Spooky LP</h2>
+            
               <Box mt={2}>
                 <CardIcon>
                   <TokenSymbol symbol="TOMB-FTM-LP" />
@@ -404,7 +402,7 @@ const Home = () => {
                   Zap In
                 </Button>
               </Box>*/}
-              <br></br>
+              
               <Box mt={2}>
                 <span style={{ fontSize: '26px' }}>
                   {tombLPStats?.tokenAmount ? tombLPStats?.tokenAmount : '-.--'} 3OMB /{' '}
@@ -422,8 +420,8 @@ const Home = () => {
         <Grid item xs={12} sm={6}>
           <Card style={{ backgroundColor: "transparent", boxShadow: "none", border: "2px solid var(--purple)" }}>
             <CardContent align="center">
-              <h2>BSHARES-WFTM Spooky LP</h2>
-              <br></br>
+              <h2>DSHARES-WFTM Spooky LP</h2>
+           
               <Box mt={2}>
                 <CardIcon>
                   <TokenSymbol symbol="TSHARE-FTM-LP" />
@@ -434,7 +432,7 @@ const Home = () => {
                   Zap In
                 </Button>
             </Box>*/}
-            <br></br>
+            
               <Box mt={2}>
                 <span style={{ fontSize: '26px' }}>
                   {tshareLPStats?.tokenAmount ? tshareLPStats?.tokenAmount : '-.--'} 3SHARE /{' '}

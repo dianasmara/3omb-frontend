@@ -6,10 +6,10 @@
     --black: #16191E;
     --white: #FFFF;
     --accent: #FF0000;
-    --accent-light: #141313;
+    --accent-light: #FF0000;
     --green: rgb(0, 250, 62);
-    --pink: #F10086;
-    --purple: #E900FF;
+    --pink: #FFFF;
+    --purple: #FFFF;
 }  
 
     
@@ -22,7 +22,7 @@ h2,
 h3,
 h4 {
   margin: 0;
-  font-family: 'Inspiration', cursive !important;
+  font-family: 'Nova Square', cursive !important;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif; */
@@ -73,13 +73,13 @@ body {
 
 h1,
 h2,{
-  font-family: 'Ruge Boogie' !important;
+  font-family: 'Nova Square' !important;
 }
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Boogaloo' !important;
+  font-family: 'Nova Square' !important;
 }
 
 footer .a:hover {

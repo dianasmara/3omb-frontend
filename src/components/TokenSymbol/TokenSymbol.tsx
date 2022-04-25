@@ -68,7 +68,7 @@ type LogoProps = {
   size?: number;
 };
 
-const TokenSymbol: React.FC<LogoProps> = ({ symbol, size = 150 }) => {
+const TokenSymbol: React.FC<LogoProps> = ({ symbol, size = 90 }) => {
   if (!logosBySymbol[symbol]) {
     return <img src={logosBySymbol['TOMB']} alt={`${symbol} Logo`} width={size} height={size} />
     // throw new Error(`Invalid Token Logo symbol: ${symbol}`);

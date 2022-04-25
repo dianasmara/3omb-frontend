@@ -38,10 +38,10 @@ const Harvest: React.FC = () => {
             <StyledCardHeader>
               <CardIcon>
                 <TokenSymbol symbol="TOMB" />
-              </CardIcon>
+              </CardIcon> 
               <Value value={getDisplayBalance(earnings)} />
               <Label text={`≈ $${earnedInDollars}`} />
-              <Label text="3OMB Earned" />
+              <Label text="DICE Earned" />
             </StyledCardHeader>
             <StyledCardActions>
               <Button
@@ -56,7 +56,7 @@ const Harvest: React.FC = () => {
           </StyledCardContentInner>
         </CardContent>
       </Card>
-      <Box mt={2} style={{ color: '#FFF' }}>
+      <Box mt={6} style={{ color: '#FFF' }}>
         {canClaimReward ? (
           ''
         ) : (
